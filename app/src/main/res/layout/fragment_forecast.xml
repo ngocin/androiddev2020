@@ -13,7 +13,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="70dp"
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/Monday"
@@ -21,8 +21,9 @@
             android:textSize="15sp" />
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
             app:srcCompat="@drawable/cloudy"
             tools:ignore="ContentDescription" />
 
@@ -54,16 +55,18 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="70dp"
             android:layout_height="match_parent"
+            android:gravity="center"
             android:text="@string/Tuesday"
             android:textAlignment="center"
-            android:textSize="15sp"
-            android:gravity="center"/>
+            android:textSize="15sp" />
+
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
             app:srcCompat="@drawable/sunny"
             tools:ignore="ContentDescription" />
 
@@ -94,7 +97,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="70dp"
             android:layout_height="match_parent"
             android:text="@string/Wednesday"
             android:textAlignment="center"
@@ -102,8 +105,9 @@
             android:gravity="center"/>
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
             app:srcCompat="@drawable/light_rain"
             tools:ignore="ContentDescription" />
 
@@ -134,7 +138,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="70dp"
             android:layout_height="match_parent"
             android:text="@string/Thursday"
             android:textAlignment="center"
@@ -142,8 +146,9 @@
             android:gravity="center"/>
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
             app:srcCompat="@drawable/fog"
             tools:ignore="ContentDescription" />
 
@@ -174,7 +179,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="70dp"
             android:layout_height="match_parent"
             android:text="@string/Friday"
             android:textAlignment="center"
@@ -182,8 +187,9 @@
             android:gravity="center"/>
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
             app:srcCompat="@drawable/snowy"
             tools:ignore="ContentDescription" />
 
@@ -214,7 +220,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="70dp"
             android:layout_height="match_parent"
             android:text="@string/Saturday"
             android:textAlignment="center"
@@ -222,8 +228,9 @@
             android:gravity="center"/>
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
             app:srcCompat="@drawable/thunderstorm"
             tools:ignore="ContentDescription" />
 
@@ -236,6 +243,48 @@
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
                 android:text="@string/thunderstorm"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/temperature"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:text="@string/Sunday"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/partly_sunny"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/partly_sunny"
                 android:textSize="15sp"
                 />
 
