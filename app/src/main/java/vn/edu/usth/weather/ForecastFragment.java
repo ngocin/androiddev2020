@@ -6,9 +6,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+
 import androidx.fragment.app.Fragment;
 /**
  * A simple {@link Fragment} subclass.
@@ -21,8 +19,8 @@ public class ForecastFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_forecast, container, false);
-        view.setBackgroundColor(0xFFE0E0FF);
+        return inflater.inflate(R.layout.fragment_forecast, container, false);
+//        view.setBackgroundColor(0xFFE0E0FF);
 
         /*
         //practical work 4 start here
@@ -40,6 +38,5 @@ public class ForecastFragment extends Fragment {
         fragment_container.addView(day);
         */
 
-        return view;
     }
 }

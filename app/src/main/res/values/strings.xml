@@ -9,11 +9,17 @@
     <string name="Thursday">Thu</string>
     <string name="Friday">Fri</string>
     <string name="Saturday">Sat</string>
+    <string name="Sunday">Sun</string>
     <string name="cloudy">Clouldy</string>
+    <string name="black_cloudy">Black Clouldy</string>
     <string name="sunny">Sunny</string>
     <string name="light_rain">Light Rain</string>
+    <string name="heavy_rain">Heavy Rain</string>
+    <string name="sunny_light_rain">Sun with Light Rain</string>
     <string name="fog">Foggy</string>
     <string name="snowy">Snowy</string>
     <string name="thunderstorm">Thunderstorm</string>
+    <string name="partly_sunny">Partly Sunny</string>
     <string name="temperature">24C - 31C</string>
+    <string name="hanoi">Ha Noi</string>
 </resources>
