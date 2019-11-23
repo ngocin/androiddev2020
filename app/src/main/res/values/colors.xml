@@ -4,5 +4,5 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="background_forecast">#E0E0FF</color>
-    <color name="background_weather">#DAFADA</color>
+    <color name="background_weather">#B1F3DE</color>
 </resources>
