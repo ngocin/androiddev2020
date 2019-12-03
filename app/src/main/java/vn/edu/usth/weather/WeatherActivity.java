@@ -9,6 +9,8 @@ import com.google.android.material.tabs.TabLayout;
 import android.os.Bundle;
 import android.util.Log;
 
+import android.media.MediaPlayer;
+
 public class WeatherActivity extends AppCompatActivity {
     private final String tag = "status";
 
@@ -35,6 +37,8 @@ public class WeatherActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Log.i("Resume ", "Call Resume");
+        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.nhacthoitietcuchay);
+        mediaPlayer.start();
     }
     @Override
     protected void onPause() {
