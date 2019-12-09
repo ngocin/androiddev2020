@@ -19,5 +19,6 @@
     <string name="sunny">"Nắng "</string>
     <string name="sunny_light_rain">Nắng và Mưa Nhẹ</string>
     <string name="thunderstorm">Dông Bão</string>
-    <string name="hello_blank_fragment">Đây là 1 Fragment trống</string>
+    <string name="refresh_message">Cái nút này tốt hơn hết là sẽ refresh cái app của bạn hoặc không ít nhất sẽ không crash cái app</string>
+    <string name="refresh">Làm tươi</string>
 </resources>
